@@ -70,7 +70,7 @@ public class Search {
         }
         }
     
-    if(high <= low){
+    if(high <= low && array2[middle]!= input){
         System.out.println (input + " was not found");
         if (input < array2[49]){
         System.out.println ("The number above the input is " + array2[low]);
